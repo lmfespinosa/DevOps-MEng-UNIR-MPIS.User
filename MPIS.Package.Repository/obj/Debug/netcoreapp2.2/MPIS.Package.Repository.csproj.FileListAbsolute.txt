@@ -1,0 +1,24 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Base.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Base.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.csproj.CopyComplete
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.deps.json
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Base.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\bin\Debug\netcoreapp2.2\MPIS.Package.Base.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.csproj.CopyComplete
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.Repository\obj\Debug\netcoreapp2.2\MPIS.Package.Repository.pdb

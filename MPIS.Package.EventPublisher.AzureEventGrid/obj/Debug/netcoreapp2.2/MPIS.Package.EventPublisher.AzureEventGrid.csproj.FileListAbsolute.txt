@@ -1,0 +1,18 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.deps.json
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.EventPublisher.AzureEventGrid\obj\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.pdb

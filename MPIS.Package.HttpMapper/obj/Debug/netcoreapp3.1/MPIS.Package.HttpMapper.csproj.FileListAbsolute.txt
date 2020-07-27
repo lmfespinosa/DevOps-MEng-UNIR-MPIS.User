@@ -1,0 +1,5 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\bin\Debug\netcoreapp3.1\MPIS.Package.HttpMapper.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\bin\Debug\netcoreapp3.1\MPIS.Package.HttpMapper.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp3.1\MPIS.Package.HttpMapper.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp3.1\MPIS.Package.HttpMapper.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp3.1\MPIS.Package.HttpMapper.AssemblyInfo.cs

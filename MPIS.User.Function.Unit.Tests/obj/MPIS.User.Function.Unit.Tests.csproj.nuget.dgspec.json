@@ -1,0 +1,1179 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Unit.Tests\\MPIS.User.Function.Unit.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Base\\MPIS.Package.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Base\\MPIS.Package.Base.csproj",
+        "projectName": "MPIS.Package.Base",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Base\\MPIS.Package.Base.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.EventPublisher.AzureEventGrid\\MPIS.Package.EventPublisher.AzureEventGrid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.EventPublisher.AzureEventGrid\\MPIS.Package.EventPublisher.AzureEventGrid.csproj",
+        "projectName": "MPIS.Package.EventPublisher.AzureEventGrid",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.EventPublisher.AzureEventGrid\\MPIS.Package.EventPublisher.AzureEventGrid.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.EventPublisher.AzureEventGrid\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Azure.EventGrid": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.HttpMapper\\MPIS.Package.HttpMapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.HttpMapper\\MPIS.Package.HttpMapper.csproj",
+        "projectName": "MPIS.Package.HttpMapper",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.HttpMapper\\MPIS.Package.HttpMapper.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.HttpMapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Repository\\MPIS.Package.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Repository\\MPIS.Package.Repository.csproj",
+        "projectName": "MPIS.Package.Repository",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Repository\\MPIS.Package.Repository.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Base\\MPIS.Package.Base.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Base\\MPIS.Package.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj",
+        "projectName": "MPIS.User.AplicationService.DTOs",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService\\MPIS.User.AplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService\\MPIS.User.AplicationService.csproj",
+        "projectName": "MPIS.User.AplicationService",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService\\MPIS.User.AplicationService.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Repository\\MPIS.Package.Repository.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Repository\\MPIS.Package.Repository.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.USer.DomainModel\\MPIS.User.DomainModel.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.USer.DomainModel\\MPIS.User.DomainModel.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Repository\\MPIS.User.Repository.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Repository\\MPIS.User.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AutoMapper\\MPIS.User.AutoMapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AutoMapper\\MPIS.User.AutoMapper.csproj",
+        "projectName": "MPIS.User.AutoMapper",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AutoMapper\\MPIS.User.AutoMapper.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AutoMapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.USer.DomainModel\\MPIS.User.DomainModel.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.USer.DomainModel\\MPIS.User.DomainModel.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.DomainModel\\MPIS.User.DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.DomainModel\\MPIS.User.DomainModel.csproj",
+        "projectName": "MPIS.User.DomainModel",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.DomainModel\\MPIS.User.DomainModel.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Base\\MPIS.Package.Base.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Base\\MPIS.Package.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj",
+        "projectName": "MPIS.User.EventGrid",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.EventPublisher.AzureEventGrid\\MPIS.Package.EventPublisher.AzureEventGrid.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.EventPublisher.AzureEventGrid\\MPIS.Package.EventPublisher.AzureEventGrid.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.FluentValidation\\MPIS.User.FluentValidation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.FluentValidation\\MPIS.User.FluentValidation.csproj",
+        "projectName": "MPIS.User.FluentValidation",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.FluentValidation\\MPIS.User.FluentValidation.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.FluentValidation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.HttpMapper\\MPIS.Package.HttpMapper.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.HttpMapper\\MPIS.Package.HttpMapper.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Models.Tests\\MPIS.User.Function.Models.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Models.Tests\\MPIS.User.Function.Models.Tests.csproj",
+        "projectName": "MPIS.User.Function.Models.Tests",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Models.Tests\\MPIS.User.Function.Models.Tests.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Models.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Unit.Tests\\MPIS.User.Function.Unit.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Unit.Tests\\MPIS.User.Function.Unit.Tests.csproj",
+        "projectName": "MPIS.User.Function.Unit.Tests",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Unit.Tests\\MPIS.User.Function.Unit.Tests.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Unit.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService\\MPIS.User.AplicationService.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService\\MPIS.User.AplicationService.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AutoMapper\\MPIS.User.AutoMapper.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AutoMapper\\MPIS.User.AutoMapper.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Models.Tests\\MPIS.User.Function.Models.Tests.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function.Models.Tests\\MPIS.User.Function.Models.Tests.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function\\MPIS.User.Function.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function\\MPIS.User.Function.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.4, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function\\MPIS.User.Function.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function\\MPIS.User.Function.csproj",
+        "projectName": "MPIS.User.Function",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function\\MPIS.User.Function.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Function\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.HttpMapper\\MPIS.Package.HttpMapper.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.HttpMapper\\MPIS.Package.HttpMapper.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService\\MPIS.User.AplicationService.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService\\MPIS.User.AplicationService.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AutoMapper\\MPIS.User.AutoMapper.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AutoMapper\\MPIS.User.AutoMapper.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.EventGrid\\MPIS.User.EventGrid.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.FluentValidation\\MPIS.User.FluentValidation.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.FluentValidation\\MPIS.User.FluentValidation.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Repository\\MPIS.User.Repository.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Repository\\MPIS.User.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "AzureFunctions.Extensions.Swashbuckle": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Oakton.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj",
+        "projectName": "MPIS.User.RepositoryModel",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.USer.DomainModel\\MPIS.User.DomainModel.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.USer.DomainModel\\MPIS.User.DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Repository\\MPIS.User.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Repository\\MPIS.User.Repository.csproj",
+        "projectName": "MPIS.User.Repository",
+        "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Repository\\MPIS.User.Repository.csproj",
+        "packagesPath": "C:\\Users\\Espinosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Espinosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Repository\\MPIS.Package.Repository.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.Package.Repository\\MPIS.Package.Repository.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.AplicationService.DTOs\\MPIS.User.AplicationService.DTOs.csproj"
+              },
+              "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj": {
+                "projectPath": "C:\\Master DevOps\\TFM\\Codigo\\2 - UserService\\MPIS.User\\MPIS.User.RepositoryModel\\MPIS.User.RepositoryModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

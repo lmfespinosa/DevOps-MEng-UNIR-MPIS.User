@@ -1,0 +1,52 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.Base.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.DTOs.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.Repository.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.RepositoryModel.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.DTOs.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.Repository.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.Base.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.RepositoryModel.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.csproj.CopyComplete
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.EventGrid.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.EventGrid.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.deps.json
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.Base.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.DTOs.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.EventGrid.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.Repository.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.RepositoryModel.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.Repository.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.AplicationService.DTOs.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.EventGrid.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.Repository.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.Base.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.Package.EventPublisher.AzureEventGrid.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\bin\Debug\netcoreapp2.2\MPIS.User.RepositoryModel.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.csproj.CopyComplete
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.AplicationService\obj\Debug\netcoreapp2.2\MPIS.User.AplicationService.pdb

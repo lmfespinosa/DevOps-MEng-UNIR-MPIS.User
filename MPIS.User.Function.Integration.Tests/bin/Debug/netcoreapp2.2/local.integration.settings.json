@@ -1,0 +1,5 @@
+{
+  //"URLFunctionService": "https://test-dev-notification-test.azurewebsites.net/",
+  "URLFunctionService": "http://localhost:7071/",
+  "X_Function_Key": "B59VhHjiJnyZptRRpYca5a1Y1IcKCxxYi0Z52k/sgZoDliMJLIz/mQ=="
+}

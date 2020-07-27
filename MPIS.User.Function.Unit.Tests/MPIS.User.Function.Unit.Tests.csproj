@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Moq" Version="4.14.4" />
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MPIS.User.AplicationService\MPIS.User.AplicationService.csproj" />
+    <ProjectReference Include="..\MPIS.User.AutoMapper\MPIS.User.AutoMapper.csproj" />
+    <ProjectReference Include="..\MPIS.User.Function.Models.Tests\MPIS.User.Function.Models.Tests.csproj" />
+    <ProjectReference Include="..\MPIS.User.Function\MPIS.User.Function.csproj" />
+    <ProjectReference Include="..\MPIS.User.RepositoryModel\MPIS.User.RepositoryModel.csproj" />
+  </ItemGroup>
+
+</Project>

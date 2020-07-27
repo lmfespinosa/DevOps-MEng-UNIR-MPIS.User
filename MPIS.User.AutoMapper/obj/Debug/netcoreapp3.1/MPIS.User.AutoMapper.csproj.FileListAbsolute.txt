@@ -1,0 +1,16 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.User.AutoMapper.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.User.AutoMapper.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.User.AutoMapper.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.Package.Base.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.USer.DomainModel.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.USer.DomainModel.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\bin\Debug\netcoreapp3.1\MPIS.Package.Base.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\obj\Debug\netcoreapp3.1\MPIS.User.AutoMapper.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\obj\Debug\netcoreapp3.1\MPIS.User.AutoMapper.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\obj\Debug\netcoreapp3.1\MPIS.User.AutoMapper.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\obj\Debug\netcoreapp3.1\MPIS.User.AutoMapper.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\obj\Debug\netcoreapp3.1\MPIS.User.AutoMapper.csproj.CopyComplete
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\obj\Debug\netcoreapp3.1\MPIS.User.AutoMapper.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AutoMapper\obj\Debug\netcoreapp3.1\MPIS.User.AutoMapper.pdb

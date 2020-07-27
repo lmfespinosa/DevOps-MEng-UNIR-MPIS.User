@@ -1,0 +1,14 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\bin\Debug\netcoreapp3.1\MPIS.User.EventGrid.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\bin\Debug\netcoreapp3.1\MPIS.User.EventGrid.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\obj\Debug\netcoreapp3.1\MPIS.User.EventGrid.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\obj\Debug\netcoreapp3.1\MPIS.User.EventGrid.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\obj\Debug\netcoreapp3.1\MPIS.User.EventGrid.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\obj\Debug\netcoreapp3.1\MPIS.User.EventGrid.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\bin\Debug\netcoreapp3.1\MPIS.Package.EventPublisher.AzureEventGrid.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\bin\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\bin\Debug\netcoreapp3.1\MPIS.Package.EventPublisher.AzureEventGrid.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\bin\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\obj\Debug\netcoreapp3.1\MPIS.User.EventGrid.csproj.CopyComplete
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\bin\Debug\netcoreapp3.1\MPIS.User.EventGrid.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\obj\Debug\netcoreapp3.1\MPIS.User.EventGrid.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.EventGrid\obj\Debug\netcoreapp3.1\MPIS.User.EventGrid.pdb

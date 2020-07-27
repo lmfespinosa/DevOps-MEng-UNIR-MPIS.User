@@ -1,0 +1,9 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\bin\Debug\netcoreapp3.1\MPIS.User.FluentValidation.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\bin\Debug\netcoreapp3.1\MPIS.User.FluentValidation.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\bin\Debug\netcoreapp3.1\MPIS.User.FluentValidation.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\obj\Debug\netcoreapp3.1\MPIS.User.FluentValidation.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\obj\Debug\netcoreapp3.1\MPIS.User.FluentValidation.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\obj\Debug\netcoreapp3.1\MPIS.User.FluentValidation.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\obj\Debug\netcoreapp3.1\MPIS.User.FluentValidation.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\obj\Debug\netcoreapp3.1\MPIS.User.FluentValidation.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.FluentValidation\obj\Debug\netcoreapp3.1\MPIS.User.FluentValidation.pdb

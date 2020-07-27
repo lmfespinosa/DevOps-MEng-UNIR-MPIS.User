@@ -1,0 +1,24 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.Package.Base.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.Package.Base.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.csproj.CopyComplete
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.deps.json
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.User.DomainModel.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.Package.Base.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\bin\Debug\netcoreapp2.2\MPIS.Package.Base.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.csproj.CopyComplete
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.User.DomainModel\obj\Debug\netcoreapp2.2\MPIS.User.DomainModel.pdb

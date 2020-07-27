@@ -1,0 +1,16 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\bin\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\bin\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\bin\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.HttpMapper\bin\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.deps.json
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.HttpMapper\bin\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.HttpMapper\bin\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.pdb
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.dll
+C:\Master DevOps\TFM\Codigo\2 - UserService\MPIS.User\MPIS.Package.HttpMapper\obj\Debug\netcoreapp2.2\MPIS.Package.HttpMapper.pdb

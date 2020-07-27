@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "MPIS.User.DomainModel/1.0.0": {
+        "dependencies": {
+          "MPIS.Package.Base": "1.0.0"
+        },
+        "runtime": {
+          "MPIS.User.DomainModel.dll": {}
+        }
+      },
+      "MPIS.Package.Base/1.0.0": {
+        "runtime": {
+          "MPIS.Package.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MPIS.User.DomainModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MPIS.Package.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

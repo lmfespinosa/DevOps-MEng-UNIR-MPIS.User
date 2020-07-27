@@ -1,0 +1,9 @@
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\bin\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.deps.json
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\bin\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\bin\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.pdb
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\obj\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.csprojAssemblyReference.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\obj\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.csproj.CoreCompileInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\obj\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.AssemblyInfoInputs.cache
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\obj\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.AssemblyInfo.cs
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\obj\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.dll
+C:\Master DevOps\TFM\Codigo\UserService\MPIS.User\MPIS.User.AplicationService.DTOs\obj\Debug\netcoreapp3.1\MPIS.User.AplicationService.DTOs.pdb

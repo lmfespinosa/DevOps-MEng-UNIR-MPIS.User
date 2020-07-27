@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MPIS.Package.Repository\MPIS.Package.Repository.csproj" />
+    <ProjectReference Include="..\MPIS.User.AplicationService\MPIS.User.AplicationService.csproj" />
+    <ProjectReference Include="..\MPIS.User.Repository\MPIS.User.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
