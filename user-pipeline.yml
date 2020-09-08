@@ -1,0 +1,92 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+  
+variables:
+- group: COMMON
+- group: TERRAFORM_DEV
+  
+stages:
+
+- stage: Build
+  displayName: Main stage
+
+  jobs:
+  - job: Build
+    displayName: 'Build, Test & Publish artifacts'
+
+    steps:
+
+    - task: UseDotNet@2
+      displayName: 'Use 2.2.203 SDK'
+      inputs:
+        packageType: 'sdk'
+        version: '2.2.203'
+        installationPath: $(Agent.ToolsDirectory)/dotnet
+        
+    - task: DotNetCoreCLI@2
+      displayName: 'Restore'
+      inputs:
+        command: 'restore'
+        vstsFeed: $(FEED)
+        projects: '$(System.DefaultWorkingDirectory)/MPIS.User.Function/*.csproj'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Build'
+      inputs:
+        command: 'build'
+        projects: '$(System.DefaultWorkingDirectory)/MPIS.User.Function/*.csproj'
+        arguments: '--output $(System.DefaultWorkingDirectory)/publish_output --configuration Release'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Unit Test'
+      inputs:
+        command: test
+        projects: '$(System.DefaultWorkingDirectory)/MPIS.User.Function.Unit.Tests/*.csproj'
+        arguments: '--configuration Release'
+
+    - task: ArchiveFiles@2
+      displayName: 'Archive files'
+      inputs:
+        rootFolderOrFile: '$(System.DefaultWorkingDirectory)/publish_output'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+
+    # - task: PublishBuildArtifacts@1
+    #   displayName: 'Publish artifacts'
+    #   inputs:
+    #     PathtoPublish: '$(Build.ArtifactStagingDirectory)/Appointment'
+    #     ArtifactName: 'drop'
+#        publishLocation: 'Container'
+
+
+#    - task: AzureFunctionApp@1
+#      displayName: 'Deploy Integrations Environment'
+    #   inputs:
+    #    azureSubscription: '$(SERVICE_CONNECTION)'
+    #    appType: 'functionApp'
+    #    appName:  '$(FUNCTION_TEST_APPOINTMENT_NAME)'
+    #    resourceGroupName: '$(RESOURCE_GROUP)'
+    #    package: '$(Build.ArtifactStagingDirectory)/Appointment/$(Build.BuildId).zip'
+    #    AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_TEST_APPOINTMENT_CONNECTION_STRING)" -Audience "$(APP_IDENTITYSERVER_AUDIENCE)" -Issuer "$(APP_IDENTITYSERVER_HOSTNAME)" -SigninKeys "$(APP_IDENTITYSERVER_KEYS)" -IssuerToken "$(APP_ISSUER_TOKEN)" -ValidIssuers -AzureEventGridClient.TopicKey $(EVENT_GRID_TEST_APPOINTMENT_TOPIC_PRIMARY_KEY) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath Solimat/Appointment -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_TEST_APPOINTMENT_TOPIC_ENDPOINT) -MembershipClient $(FUNCTION_TEST_MEMBERSHIP_KEY_PATH)'
+
+    # - task: DotNetCoreCLI@2
+    #   displayName: 'Integrations test'
+    #   inputs:
+    #    command: test
+    #    projects: '$(System.DefaultWorkingDirectory)/Solimat.Appointment.Functions.Integrations.Tests/*.csproj'
+    #    arguments: '--configuration Release'
+
+   - task: AzureFunctionApp@1
+      displayName: 'Deployment environment'
+      inputs:
+       azureSubscription: '$(SERVICE_CONNECTION)'
+       appType: 'functionApp'
+       appName:  '$(FUNCTION_USER_NAME)'
+       resourceGroupName: '$(RESOURCE_GROUP)'
+       package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+       AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_USER_CONNECTION_STRING)" -AzureEventGridClient.TopicKey $(EVENT_GRID_USER_TOPIC_PRIMARY_KEY) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath MPIS/User -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_USER_TOPIC_ENDPOINT)'
