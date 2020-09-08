@@ -25,7 +25,15 @@ stages:
         packageType: 'sdk'
         version: '2.2.203'
         installationPath: $(Agent.ToolsDirectory)/dotnet
-        
+
+    - task: UseDotNet@2
+      displayName: 'Use 3.0.0 SDK'
+      inputs:
+        packageType: 'sdk'
+        version: '3.0.x'
+        installationPath: $(Agent.ToolsDirectory)/dotnet
+        includePreviewVersions: true
+
     - task: DotNetCoreCLI@2
       displayName: 'Restore'
       inputs:
@@ -81,12 +89,12 @@ stages:
     #    projects: '$(System.DefaultWorkingDirectory)/Solimat.Appointment.Functions.Integrations.Tests/*.csproj'
     #    arguments: '--configuration Release'
 
-   - task: AzureFunctionApp@1
+    - task: AzureFunctionApp@1
       displayName: 'Deployment environment'
       inputs:
-       azureSubscription: '$(SERVICE_CONNECTION)'
+       azureSubscription: '$(AZURE_SERVICE_CONNECTION)'
        appType: 'functionApp'
        appName:  '$(FUNCTION_USER_NAME)'
-       resourceGroupName: '$(RESOURCE_GROUP)'
+       resourceGroupName: '$(RESOURCE_GROUP_DEV)'
        package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
        AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_USER_CONNECTION_STRING)" -AzureEventGridClient.TopicKey $(EVENT_GRID_USER_TOPIC_PRIMARY_KEY) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath MPIS/User -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_USER_TOPIC_ENDPOINT)'
