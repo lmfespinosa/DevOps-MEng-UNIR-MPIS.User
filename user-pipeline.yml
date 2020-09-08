@@ -97,4 +97,4 @@ stages:
        appName:  '$(FUNCTION_USER_NAME_DEV)'
        resourceGroupName: '$(RESOURCE_GROUP_DEV)'
        package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-       AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_USER_CONNECTION_STRING)" -AzureEventGridClient.TopicKey $(EVENT_GRID_USER_TOPIC_PRIMARY_KEY) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath MPIS/User -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_USER_TOPIC_ENDPOINT)'
+       AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_USER_CONNECTION_STRING_DEV)" -AzureEventGridClient.TopicKey $(EVENT_GRID_USER_TOPIC_PRIMARY_KEY_DEV) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath MPIS/User -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_USER_TOPIC_ENDPOINT_DEV)'
