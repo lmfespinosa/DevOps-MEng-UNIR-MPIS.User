@@ -1,5 +1,5 @@
 {
   //"URLFunctionService": "https://test-dev-notification-test.azurewebsites.net/",
-  "URLFunctionService": "__urlfunctiontestuserhost__",
+  "URLFunctionService": "__urlfunctiontestuserhost__/",
   "X_Function_Key": "__functiontestusermasterkey__" 
 }

@@ -82,19 +82,26 @@ stages:
 
     - task: AzureFunctionApp@1
       displayName: 'Deploy Integrations Environment'
-       inputs:
+      inputs:
         azureSubscription: '$(AZURE_SERVICE_CONNECTION)'
         appType: 'functionApp'
-        appName:  '$(FUNCTION_TEST_USER_NAME_TEST)'
+        appName:  '$(FUNCTION_TEST_USER_NAME_DEV)'
         resourceGroupName: '$(RESOURCE_GROUP_DEV)'
         package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
         AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_TEST_USER_CONNECTION_STRING_DEV)" -AzureEventGridClient.TopicKey $(EVENT_GRID_TEST_USER_TOPIC_PRIMARY_KEY_DEV) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath MPIS/User -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_TEST_USER_TOPIC_ENDPOINT_DEV)'
 
-     - task: DotNetCoreCLI@2
-       displayName: 'Integrations test'
-       inputs:
+#    - task: DotNetCoreCLI@2
+#      displayName: 'Integrations test'
+#      inputs:
+#        command: test
+#        projects: '$(System.DefaultWorkingDirectory)/MPIS.User.Function.Integration.Tests/*.csproj'
+#        arguments: '--configuration Release'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Integration Test'
+      inputs:
         command: test
-        projects: '$(System.DefaultWorkingDirectory)/Solimat.Appointment.Functions.Integrations.Tests/*.csproj'
+        projects: '$(System.DefaultWorkingDirectory)/MPIS.User.Function.Unit.Tests/*.csproj'
         arguments: '--configuration Release'
 
     - task: AzureFunctionApp@1
@@ -110,7 +117,7 @@ stages:
     - task: qetza.replacetokens.replacetokens-task.replacetokens@3
       displayName: 'Replace tokens in event-subscriptions.json'
       inputs:
-        rootDirectory: '$(System.DefaultWorkingDirectory)/drop/scripts'
+        rootDirectory: '$(System.DefaultWorkingDirectory)/scripts'
         targetFiles: 'event-subscriptions.json'
         verbosity: detailed
         tokenPrefix: '__'
@@ -121,5 +128,5 @@ stages:
       inputs:
         azureSubscription: '$(AZURE_SERVICE_CONNECTION)'
         scriptType: ps
-        scriptPath: '$(System.DefaultWorkingDirectory)/drop/scripts/create-event-subscriptions.ps1'
-        workingDirectory: '$(System.DefaultWorkingDirectory)/drop/scripts'
+        scriptPath: '$(System.DefaultWorkingDirectory)/scripts/create-event-subscriptions.ps1'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/scripts'
