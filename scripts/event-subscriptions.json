@@ -1,0 +1,31 @@
+{
+  "azure_subscription": "__azuresubscriptionid__",
+  "resource_group": "__resourcegroup__",
+  "topics": [
+    {
+      "id": "__topicuserid__",
+      "function_apps": [
+        {
+          "name": "__functiondevicename__",
+          "event_subscriptions": [
+            {
+              "name": "from-user-to-device-user-created",
+              "function_name": "user-created",
+              "type": "UserCreated"
+            },
+            {
+              "name": "from-user-to-device-user-updated",
+              "function_name": "user-updated",
+              "type": "UserUpdated"
+            },
+            {
+              "name": "from-user-to-device-user-deleted",
+              "function_name": "user-deleted",
+              "type": "UserDeleted"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

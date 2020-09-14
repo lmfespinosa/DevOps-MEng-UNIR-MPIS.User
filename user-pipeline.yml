@@ -41,6 +41,15 @@ stages:
         vstsFeed: $(FEED)
         projects: '$(System.DefaultWorkingDirectory)/MPIS.User.Function/*.csproj'
 
+    - task: qetza.replacetokens.replacetokens-task.replacetokens@3
+      displayName: 'Replace tokens in event-subscriptions.json'
+      inputs:
+        rootDirectory: '$(System.DefaultWorkingDirectory)/MPIS.User.Function.Integration.Tests'
+        targetFiles: 'local.integration.settings.json'
+        verbosity: detailed
+        tokenPrefix: '__'
+        tokenSuffix: '__'
+
     - task: DotNetCoreCLI@2
       displayName: 'Build'
       inputs:
@@ -71,23 +80,22 @@ stages:
     #     ArtifactName: 'drop'
 #        publishLocation: 'Container'
 
+    - task: AzureFunctionApp@1
+      displayName: 'Deploy Integrations Environment'
+       inputs:
+        azureSubscription: '$(AZURE_SERVICE_CONNECTION)'
+        appType: 'functionApp'
+        appName:  '$(FUNCTION_TEST_USER_NAME_TEST)'
+        resourceGroupName: '$(RESOURCE_GROUP_DEV)'
+        package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+        AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_TEST_USER_CONNECTION_STRING_DEV)" -AzureEventGridClient.TopicKey $(EVENT_GRID_TEST_USER_TOPIC_PRIMARY_KEY_DEV) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath MPIS/User -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_TEST_USER_TOPIC_ENDPOINT_DEV)'
 
-#    - task: AzureFunctionApp@1
-#      displayName: 'Deploy Integrations Environment'
-    #   inputs:
-    #    azureSubscription: '$(SERVICE_CONNECTION)'
-    #    appType: 'functionApp'
-    #    appName:  '$(FUNCTION_TEST_APPOINTMENT_NAME)'
-    #    resourceGroupName: '$(RESOURCE_GROUP)'
-    #    package: '$(Build.ArtifactStagingDirectory)/Appointment/$(Build.BuildId).zip'
-    #    AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_TEST_APPOINTMENT_CONNECTION_STRING)" -Audience "$(APP_IDENTITYSERVER_AUDIENCE)" -Issuer "$(APP_IDENTITYSERVER_HOSTNAME)" -SigninKeys "$(APP_IDENTITYSERVER_KEYS)" -IssuerToken "$(APP_ISSUER_TOKEN)" -ValidIssuers -AzureEventGridClient.TopicKey $(EVENT_GRID_TEST_APPOINTMENT_TOPIC_PRIMARY_KEY) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath Solimat/Appointment -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_TEST_APPOINTMENT_TOPIC_ENDPOINT) -MembershipClient $(FUNCTION_TEST_MEMBERSHIP_KEY_PATH)'
-
-    # - task: DotNetCoreCLI@2
-    #   displayName: 'Integrations test'
-    #   inputs:
-    #    command: test
-    #    projects: '$(System.DefaultWorkingDirectory)/Solimat.Appointment.Functions.Integrations.Tests/*.csproj'
-    #    arguments: '--configuration Release'
+     - task: DotNetCoreCLI@2
+       displayName: 'Integrations test'
+       inputs:
+        command: test
+        projects: '$(System.DefaultWorkingDirectory)/Solimat.Appointment.Functions.Integrations.Tests/*.csproj'
+        arguments: '--configuration Release'
 
     - task: AzureFunctionApp@1
       displayName: 'Deployment environment'
@@ -98,3 +106,20 @@ stages:
        resourceGroupName: '$(RESOURCE_GROUP_DEV)'
        package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
        AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_USER_CONNECTION_STRING_DEV)" -AzureEventGridClient.TopicKey $(EVENT_GRID_USER_TOPIC_PRIMARY_KEY_DEV) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath MPIS/User -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_USER_TOPIC_ENDPOINT_DEV)'
+
+    - task: qetza.replacetokens.replacetokens-task.replacetokens@3
+      displayName: 'Replace tokens in event-subscriptions.json'
+      inputs:
+        rootDirectory: '$(System.DefaultWorkingDirectory)/drop/scripts'
+        targetFiles: 'event-subscriptions.json'
+        verbosity: detailed
+        tokenPrefix: '__'
+        tokenSuffix: '__'
+
+    - task: AzureCLI@2
+      displayName: 'Create Event Grid Subscriptions'
+      inputs:
+        azureSubscription: '$(AZURE_SERVICE_CONNECTION)'
+        scriptType: ps
+        scriptPath: '$(System.DefaultWorkingDirectory)/drop/scripts/create-event-subscriptions.ps1'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/drop/scripts'
