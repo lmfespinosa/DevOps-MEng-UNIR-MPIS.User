@@ -18,8 +18,8 @@ stages:
     displayName: 'Build, Test & Publish artifacts'
 
     steps:
-    - checkout: self
-      persistCredentials: true
+#    - checkout: self
+#      persistCredentials: true
 
     - task: UseDotNet@2
       displayName: 'Use 2.2.203 SDK'
@@ -116,14 +116,14 @@ stages:
        package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
        AppSettings: '-AzureSQLConnectionString "$(SQL_SERVER_DATABASE_USER_CONNECTION_STRING_DEV)" -AzureEventGridClient.TopicKey $(EVENT_GRID_USER_TOPIC_PRIMARY_KEY_DEV) -EventGridTopicEventPublisher.CheckEventValidity true -EventGridTopicEventPublisher.SubjectBasePath MPIS/User -EventGridTopicEventPublisher.ThrowExceptions true -EventGridTopicEventPublisher.TopicEndPoint $(EVENT_GRID_USER_TOPIC_ENDPOINT_DEV)'
 
-    - task: qetza.replacetokens.replacetokens-task.replacetokens@3
-      displayName: 'Replace tokens in event-subscriptions.json'
-      inputs:
-        rootDirectory: '$(System.DefaultWorkingDirectory)/scripts'
-        targetFiles: 'event-subscriptions.json'
-        verbosity: detailed
-        tokenPrefix: '__'
-        tokenSuffix: '__'
+#    - task: qetza.replacetokens.replacetokens-task.replacetokens@3
+#      displayName: 'Replace tokens in event-subscriptions.json'
+#      inputs:
+#        rootDirectory: '$(System.DefaultWorkingDirectory)/scripts'
+#        targetFiles: 'event-subscriptions.json'
+#        verbosity: detailed
+#        tokenPrefix: '__'
+#        tokenSuffix: '__'
 
 #    - task: AzureCLI@2
 #      displayName: 'Create Event Grid Subscriptions'
