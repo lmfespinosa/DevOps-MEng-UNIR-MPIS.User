@@ -18,6 +18,8 @@ stages:
     displayName: 'Build, Test & Publish artifacts'
 
     steps:
+    - checkout: self
+      persistCredentials: true
 
     - task: UseDotNet@2
       displayName: 'Use 2.2.203 SDK'
@@ -123,10 +125,10 @@ stages:
         tokenPrefix: '__'
         tokenSuffix: '__'
 
-    - task: AzureCLI@2
-      displayName: 'Create Event Grid Subscriptions'
-      inputs:
-        azureSubscription: '$(AZURE_SERVICE_CONNECTION)'
-        scriptType: ps
-        scriptPath: '$(System.DefaultWorkingDirectory)/scripts/create-event-subscriptions.ps1'
-        workingDirectory: '$(System.DefaultWorkingDirectory)/scripts'
+#    - task: AzureCLI@2
+#      displayName: 'Create Event Grid Subscriptions'
+#      inputs:
+#        azureSubscription: '$(AZURE_SERVICE_CONNECTION)'
+#        scriptType: ps
+#        scriptPath: '$(System.DefaultWorkingDirectory)/scripts/create-event-subscriptions.ps1'
+#        workingDirectory: '$(System.DefaultWorkingDirectory)/scripts'
